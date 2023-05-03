@@ -1,0 +1,28 @@
+@import "../../node_modules/bootstrap";
+@import "_variables.scss";
+
+html {
+  background: #1f1d2b;
+
+  body {
+    #app {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    &.modal-open {
+      overflow: hidden;
+    }
+
+    &.offcanvas-opened {
+      #app {
+        transform: translateX(320px);
+      }
+    }
+  }
+}
+.offcanvas {
+  max-width: 320px;
+}
+.offcanvas.offcanvas-start {
+  border: 0;
+}
