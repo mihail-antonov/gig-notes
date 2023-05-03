@@ -13,7 +13,7 @@ export default defineConfig({
           ],
           manifest: {
               'name': 'Gig Notes',
-              'short_name': 'GigNotes',
+              'short_name': 'Gig Notes',
               'description': 'Yet another notes app',
               'theme_color': '#1E1F2B',
               'background_color': '#1E1F2B',

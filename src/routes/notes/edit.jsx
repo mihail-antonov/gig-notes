@@ -1,7 +1,12 @@
 function NotesEdit() {
+
+
     return (
         <>
             notes edit
+
+
+
         </>
     )
 }
